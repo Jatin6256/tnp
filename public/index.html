@@ -15,16 +15,6 @@
   <meta name="robots" content="index, follow" />
   <link href="index.css" rel="stylesheet">
   <title>TPC | IIIT Raichur</title>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-56B98H5');</script>
-  <!-- End Google Tag Manager -->
 </head>
 
 <body>
@@ -34,6 +24,43 @@
   <script src="../src/index.js" type="text/jsx"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/d9c25f1394.js" crossorigin="anonymous"></script>
+  
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyACUDBevmm4DONlFQyMJgiztFmCn79Ta5w",
+      authDomain: "tnp-iiitr.firebaseapp.com",
+      projectId: "tnp-iiitr",
+      storageBucket: "tnp-iiitr.appspot.com",
+      messagingSenderId: "963437094434",
+      appId: "1:963437094434:web:9672e8f87de30fc1474c7b",
+      measurementId: "G-45DZNV2PT9"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const analytics = firebase.analytics();
+    
+//     var linkElements = document.getElementsByTagName("a");
+
+//     var linkAnaluticsFunction = function(e) {
+//         e.preventDefault();
+//         console.log(e);
+//     };
+
+//     for (var i = 0; i < linkElements.length; i++) {
+//         linkElements[i].addEventListener('click', linkAnaluticsFunction, false);
+//     }
+
+  </script>
 </body>
 
 </html>
