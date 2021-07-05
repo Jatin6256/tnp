@@ -11,7 +11,7 @@ const Thoughts = [
     id: 1,
     isLeftAlign: true,
     haveLogo: true,
-    writer: "BS Murty",
+    writer: "Dr. BS Murty",
     heading: "From Director's Desk",
     content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
     imgSrc: directordeskImage,
@@ -21,17 +21,11 @@ const Thoughts = [
     id: 2,
     isLeftAlign: false,
     haveLogo: true,
-    writer: "Sadhna Jha",
+    writer: "Dr. Sadhna Jha",
     heading: "Message From TPO",
-    content: `Being mentored by IITH, IIITR has adopted the innovative
-    fractal academics system, which warrants continuous
-    evaluation. This ensures the students have a deeper
-    understanding of the core subjects. Moreover, the highly
-    flexible curriculum forged by the esteemed faculty of IITH and
-    IIITR exuberates innovation and inventiveness. With core
-    subjects being incorporated from the first semester itself, the
-    students are able to finish their courses quite early and focus
-    on developing projects & industry relevant skills.`,
+    content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+`,
     imgSrc: tpoImage,
     altText: "TPO",
   },
@@ -40,30 +34,13 @@ const Thoughts = [
 const WhyUs = [
   {
     id: 1,
-    heading: "The Prodigious Curriculum and Academic System",
-    content: ` Being mentored by IITH, IIITR has adopted the innovative
-                    fractal academics system, which warrants continuous
-                    evaluation. This ensures the students have a deeper
-                    understanding of the core subjects. Moreover, the highly
-                    flexible curriculum forged by the esteemed faculty of IITH and
-                    IIITR exuberates innovation and inventiveness. With core
-                    subjects being incorporated from the first semester itself, the
-                    students are able to finish their courses quite early and focus
-                    on developing projects & industry relevant skills.`,
+    heading: "Lorem Ipsum",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est libero, molestie id vestibulum eu, laoreet a sapien. Vestibulum cursus, tellus et consequat consequat, urna risus facilisis ligula, ac dignissim risus velit non nulla. Ut sodales tristique nulla sagittis imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc bibendum dictum arcu ullamcorper ultrices. Cras pellentesque varius mattis. Vestibulum dolor eros, ullamcorper ut leo ac, porttitor pharetra tortor. Suspendisse ac tincidunt leo, suscipit rhoncus libero.`,
   },
   {
     id: 2,
-    heading: "The coders, thinkers and tinkerers",
-    content: `The student family of IIITR consists of competitive coders, 
-                        web development enthusiasts, eager learners and diligent scholars.
-                        The students represent the creamy layer of talent in the country.
-                        They have been actively involved in various technical and cultural
-                        club activities of IIT Hyderabad. At the same time, the students
-                        have founded and set up numerous clubs of their own to further
-                        facilitate collaborative learning and introspective growth. (The
-                        students have been exploring various industry relevant skills &
-                        technologies like Python, C++, Java, Javascript, flutter, Go, flask,
-                        NoSQL, SQL, Django, Node, Vue, React, Docker etc.)`,
+    heading: "Continued lorem ipsum",
+    content: `Vestibulum porttitor nec purus quis egestas. Nulla vel arcu velit. Maecenas vel pellentesque ex, sed sollicitudin massa. Donec vehicula ornare nibh nec sagittis. Donec volutpat bibendum justo eu bibendum. Suspendisse vitae massa sollicitudin, efficitur lectus ac, malesuada dolor. Suspendisse sollicitudin commodo sapien, ac eleifend lacus lacinia id. Vivamus leo mi, volutpat ut ante eu, bibendum posuere mauris. Fusce eu scelerisque velit. Fusce accumsan consequat nibh sed facilisis. Aenean eget ornare leo, nec efficitur lacus. Maecenas nec vulputate risus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam eget est enim.`,
   },
 ];
 
